@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/image/logo.svg" />
+
+    <title>NASSEM</title>
+  </head>
+  <body style="overflow-x: hidden">
+    <div
+      class="loaderlodging bg-white position-fixed w-100 bg-white d-flex flex-column align-items-center justify-content-center overflow-hidden"
+    >
+      <img
+        class="img-fluid img-lg-h150 mb-4"
+        src="assets/image/logo.svg"
+        alt="erorr"
+      />
+      <div class="d-flex justify-content-center text-center">
+        <span class="loader"></span>
+      </div>
+    </div>
+    <!-- start header  -->
+    <header>
+      <div class="head">
+        <div class="container">
+          <div
+            class="row d-flex align-items-center justify-content-lg-center justify-content-md-center justify-content-sm-between w-md-100"
+          >
+            <div class="col-lg-2 col-md-6 col-sm-6 logo">
+              <a href="index.html" class="dark-logo">
+                <img src="assets/image/logo.svg" alt="" />
+              </a>
+              <!-- <a href="index.html" class="white-logo">
+                <img src="assets/image/logo-white.svg" alt="" />
+              </a> -->
+            </div>
+            <div class="col col-bars d-lg-none col-md-6 col-sm-6">
+              <button class="bars border-0 bg-transparent">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </div>
+            <div class="phone col-lg-10 col-md-12 col-sm-12 w-100">
+              <div class="phone-slide row">
+                <div
+                  class="head-phone d-flex align-items-center justify-content-between"
+                >
+                  <div class="logo">
+                    <img src="assets/image/logo.svg" alt="" />
+                  </div>
+                  <div>
+                    <button class="closes border-0 bg-transparent">
+                      <i class="fa-solid fa-close"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="col list-links">
+                  <div class="links">
+                    <ul>
+                      <li class="active"><a href="logo">HOME</a></li>
+                      <li><a href="">TOURS</a></li>
+                      <li><a href="">PAGES</a></li>
+                      <li><a href="">NEWS</a></li>
+                      <li><a href="">CONTACT US</a></li>
+                    </ul>
+                  </div>
+                  <div class="buttons-header">
+                    <div class="btns-header">
+                      <button
+                        class="btn btn-light text-nowrap px-3 py-2"
+                        data-toggle="modal"
+                        data-target="#myModal"
+                      >
+                        Start Booking
+                      </button>
+                      <!-- <div class="acoutn-btn dropdown">
+                        <button
+                          type="button"
+                          class="bg-transparent dropdown-toggle py-0 btn btn-outline-dark"
+                          data-toggle="dropdown"
+                        >
+                          <p>EN</p>
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">
+                            <p>AR</p>
+                          </a>
+                        </div>
+                      </div> -->
+                    </div>
+                    <!-- <div class="btn-dark-mood text-center">
+                      <div class="w-100 d-flex justify-content-center">
+                        <div class="checkbox">
+                          <input
+                            type="checkbox"
+                            id="cbx"
+                            style="display: none"
+                          />
+                          <label for="cbx" class="toggle"><span></span></label>
+                        </div>
+                      </div>
+                    </div> -->
+                    <div>
+                      <button
+                        id="open-booking-popup"
+                        class="bg-transparent border-0 text-light mx-3"
+                        data-toggle="modal"
+                        data-target="#myModal"
+                      >
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header  -->
+    <!-- start landing  -->
+    <section
+      class="landing landing-2"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+      data-aos-once="true"
+    >
+      <div class="bg bottom">
+        <img
+          src="assets/image/bg-top.png"
+          data-aos="fade-up-right"
+          data-aos-duration="3000"
+          data-aos-once="true"
+          alt=""
+        />
+      </div>
+      <div class="autoplay">
+        <div class="slide">
+          <div class="container">
+            <div class="text-landing">
+              <h2
+                class="animate__animated my-2"
+                data-animation-in="animate__fadeInDown"
+              >
+                Booking now
+              </h2>
+              <h6
+                class="animate__animated text-light"
+                data-animation-in="animate__fadeInUp"
+              >
+                <a href="index.html" class="text-light">HOME</a> |
+                <span class="text-secondary">Sections</span>
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end landing  -->
+    <!-- ////////////////////////////////////////////////////// -->
+    <!-- start who us  -->
+
+    <section
+      class="contact-us contact-us-2 my-5"
+      data-aos="fade-up-right"
+      data-aos-duration="3000"
+      data-aos-once="true"
+    >
+      <div class="container">
+        <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1">
+          <div
+            class="col d-flex align-items-start justify-content-center flex-column"
+          >
+            <img src="assets/image/book.png" class="w-300-px h-300-px" alt="" />
+            <h2 class="my-3">BOOK WITH US NOW !</h2>
+            <p>
+              We are a specialized online platform for hotels, offering an easy,
+              secure, and transparent experience for comfortable stays without
+              the hassle of lengthy searches or limitations. We gather the best
+              hotel options in one place.
+            </p>
+          </div>
+          <div class="col contact-us-main">
+            <div class="title left flex-column">
+              <h5 class="btn btn-light rounded-pill my-3 px-3">
+                <i class="fas fa-plane"></i>
+                <span class="text-dark">Booking now</span>
+              </h5>
+              <h3 class="text-light">booking with us !</h3>
+            </div>
+            <form action="">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <label for="">first name</label>
+                  <input type="text" placeholder="name" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <label for="">last name</label>
+                  <input type="text" placeholder="email" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <label for="">phone number</label>
+                  <div class="d-flex align-items-center justify-content-center">
+                    <select name="" class="tell" id="">
+                      <option value="">+02</option>
+                      <option value="">+02</option>
+                      <option value="">+02</option>
+                      <option value="">+02</option>
+                      <option value="">+02</option>
+                      <option value="">+02</option>
+                    </select>
+                    <input type="text" placeholder="phone number" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <label for="">email addresst</label>
+                  <input type="text" placeholder="email address" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <label for="">nationality</label>
+                  <select name="" id="">
+                    <option value="">nationality</option>
+                    <option value="">nationality</option>
+                    <option value="">nationality</option>
+                    <option value="">nationality</option>
+                    <option value="">nationality</option>
+                  </select>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <label for="">The required period</label>
+                  <input type="text" placeholder="The required period" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <label for="">entry date</label>
+                  <input type="text" placeholder="entry date" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <label for="">Number of individuals</label>
+                  <input type="text" placeholder="Number of individuals" />
+                </div>
+                <div class="col-12 aggre">
+                  <div>
+                    <a href="" class="text-light"
+                      >Acceptance of terms and conditions</a
+                    >
+                  </div>
+                </div>
+                <div class="col-12 aggre">
+                  <div>
+                    <a href="" class="text-light"
+                      >Acceptance of terms and conditions</a
+                    >
+                  </div>
+                </div>
+                <div class="col-12">
+                  <a class="btn btn-primary w-100" href="thank-you.html"
+                    >book now</a
+                  >
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ////////////////////////////////////////////////////////////////////// -->
+    <!-- start footer  -->
+    <!--  -->
+    <footer data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+      <div class="container">
+        <div class="row py-3">
+          <div class="col col-lg-5 col-md-6 col-sm-12 logo">
+            <div><img src="assets/image/logo-footer.svg" alt="" /></div>
+            <div class="mt-4">
+              <p class="mb-4">
+                We are a specialized online platform for hotels, offering an
+                easy, secure, and transparent experience for comfortable stays
+                without the hassle.
+              </p>
+            </div>
+          </div>
+          <div class="col col-lg-2 col-md-6 col-sm-12">
+            <h2>LINKS</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">gallery</a></li>
+              <li><a href="#">book now</a></li>
+            </ul>
+          </div>
+          <div class="col col-lg-2 col-md-6 col-sm-12 footer-new">
+            <h2>LINKS</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">gallery</a></li>
+              <li><a href="#">book now</a></li>
+            </ul>
+          </div>
+          <div class="col col-lg-3 col-md-6 col-sm-12 search">
+            <h2>Follow us</h2>
+            <ul class="social d-flex flex-row">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="end-footer">
+        <p>
+          <a
+            class="d-block text-nowrap"
+            href="https://www.elnooronline.net/"
+            target="_blank"
+          >
+            design by :youssef mostafa
+          </a>
+        </p>
+        <p>
+          All rights reserved © 2024 for
+          <span class="text-secondary"> NASSEM </span>
+        </p>
+      </div>
+    </footer>
+    <button
+      class="end btn btn-primary rounded-50 position-fixed bottom-30px left-30px"
+    >
+      <i class="fa-solid fa-arrow-up font-5"></i>
+    </button>
+    <!-- end footer -->
+
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body contact-us-main">
+            <form method="post">
+              <input type="hidden" name="search_booking_by_code" value="1" />
+              <h2 class="ml-3 mb-2">code</h2>
+              <div class="row">
+                <div class="col-12">
+                  <input
+                    type="number"
+                    name="booking_code"
+                    min="0000000000"
+                    max="9999999999"
+                    placeholder="enter code"
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="submit"
+                    class="btn btn-primary w-100"
+                    value="submit"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- Modal footer -->
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery-for-count.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".counter").counterUp({
+          delay: 10,
+          time: 1500,
+        });
+      });
+    </script>
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/autotyping.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/slick-animation.min.js"></script>
+    <script src="assets/js/@splidejs/splide.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/@splidejs/splide-extension-auto-scroll/dist/js/splide-extension-auto-scroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/javascript.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+        loop: "true",
+      });
+      if (screen.width >= 768) {
+        const splide = new Splide(".splide", {
+          type: "loop",
+          drag: "free",
+          focus: "center",
+          perPage: 4,
+          autoScroll: {
+            speed: 1,
+          },
+        });
+
+        splide.mount(window.splide.Extensions);
+      } else if (screen.width <= 768) {
+        const splide = new Splide(".splide", {
+          type: "loop",
+          drag: "free",
+          focus: "center",
+          perPage: 2,
+          autoScroll: {
+            speed: 1,
+          },
+        });
+
+        splide.mount(window.splide.Extensions);
+      }
+    </script>
+  </body>
+</html>

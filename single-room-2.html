@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/image/logo.svg" />
+
+    <title>NASSEM</title>
+  </head>
+  <body style="overflow-x: hidden">
+    <div
+      class="loaderlodging bg-white position-fixed w-100 bg-white d-flex flex-column align-items-center justify-content-center overflow-hidden"
+    >
+      <img
+        class="img-fluid img-lg-h150 mb-4"
+        src="assets/image/logo.svg"
+        alt="erorr"
+      />
+      <div class="d-flex justify-content-center text-center">
+        <span class="loader"></span>
+      </div>
+    </div>
+    <!-- start header  -->
+    <header>
+      <div class="head">
+        <div class="container">
+          <div
+            class="row d-flex align-items-center justify-content-lg-center justify-content-md-center justify-content-sm-between w-md-100"
+          >
+            <div class="col-lg-2 col-md-6 col-sm-6 logo">
+              <a href="index.html" class="dark-logo">
+                <img src="assets/image/logo.svg" alt="" />
+              </a>
+              <!-- <a href="index.html" class="white-logo">
+                <img src="assets/image/logo-white.svg" alt="" />
+              </a> -->
+            </div>
+            <div class="col col-bars d-lg-none col-md-6 col-sm-6">
+              <button class="bars border-0 bg-transparent">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </div>
+            <div class="phone col-lg-10 col-md-12 col-sm-12 w-100">
+              <div class="phone-slide row">
+                <div
+                  class="head-phone d-flex align-items-center justify-content-between"
+                >
+                  <div class="logo">
+                    <img src="assets/image/logo.svg" alt="" />
+                  </div>
+                  <div>
+                    <button class="closes border-0 bg-transparent">
+                      <i class="fa-solid fa-close"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="col list-links">
+                  <div class="links">
+                    <ul>
+                      <li class="active"><a href="logo">HOME</a></li>
+                      <li><a href="">TOURS</a></li>
+                      <li><a href="">PAGES</a></li>
+                      <li><a href="">NEWS</a></li>
+                      <li><a href="">CONTACT US</a></li>
+                    </ul>
+                  </div>
+                  <div class="buttons-header">
+                    <div class="btns-header">
+                      <button
+                        class="btn btn-light text-nowrap px-3 py-2"
+                        data-toggle="modal"
+                        data-target="#myModal"
+                      >
+                        Start Booking
+                      </button>
+                      <!-- <div class="acoutn-btn dropdown">
+                        <button
+                          type="button"
+                          class="bg-transparent dropdown-toggle py-0 btn btn-outline-dark"
+                          data-toggle="dropdown"
+                        >
+                          <p>EN</p>
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">
+                            <p>AR</p>
+                          </a>
+                        </div>
+                      </div> -->
+                    </div>
+                    <!-- <div class="btn-dark-mood text-center">
+                      <div class="w-100 d-flex justify-content-center">
+                        <div class="checkbox">
+                          <input
+                            type="checkbox"
+                            id="cbx"
+                            style="display: none"
+                          />
+                          <label for="cbx" class="toggle"><span></span></label>
+                        </div>
+                      </div>
+                    </div> -->
+                    <div>
+                     <button id="open-booking-popup" class="bg-transparent border-0 text-light mx-3" data-toggle="modal"
+                        data-target="#myModal">
+						  <i class="fas fa-search"></i>
+						</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header  -->
+    <!-- start landing  -->
+    <section
+      class="landing landing-2"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+      data-aos-once="true"
+    >
+      <div class="bg bottom">
+        <img
+          src="assets/image/bg-top.png"
+          data-aos="fade-up-right"
+          data-aos-duration="3000"
+          data-aos-once="true"
+          alt=""
+        />
+      </div>
+      <div class="autoplay">
+        <div class="slide">
+          <div class="container">
+            <div class="text-landing">
+              <h2
+                class="animate__animated my-2"
+                data-animation-in="animate__fadeInDown"
+              >
+                luxury double suit
+              </h2>
+              <h6
+                class="animate__animated text-light"
+                data-animation-in="animate__fadeInUp"
+              >
+                <a href="index.html" class="text-light">HOME</a> |
+                <span class="text-secondary">Sections</span>
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end landing  -->
+    <!-- ////////////////////////////////////////////////////////// -->
+    <!-- start rooms  -->
+    <section
+      class="single-room my-4 py-5"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+      data-aos-once="true"
+    >
+      <div class="container">
+        <div>
+          <div class="d-flex align-items-center justify-content-between">
+            <div>
+              <ul class="stars">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+              <h5>luxury double suit</h5>
+              <p>
+                <i class="fas fa-location-dot text-primary"></i>
+                <span>We are a specialized online platform</span>
+                <a href="" class="text-primary">show on map</a>
+              </p>
+            </div>
+          </div>
+          <h2 class="ml-3 mb-3 py-2 border-bottom">images</h2>
+
+          <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 images">
+            <div class="col">
+              <img src="assets/image/room-1.png" alt="" />
+            </div>
+            <div class="col">
+              <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1">
+                <div class="col">
+                  <img src="assets/image/room-2.png" alt="" />
+                </div>
+                <div class="col">
+                  <img src="assets/image/room-3.png" alt="" />
+                </div>
+                <div class="col">
+                  <img src="assets/image/room-4.png" alt="" />
+                </div>
+                <div class="col">
+                  <img src="assets/image/room-5.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="option my-4 row row-cols-lg-3 row-cols-md-2 row-cols-sm-1"
+          >
+            <div class="col">
+              <h6 class="text-primary">
+                <img src="assets/image/flag.svg" alt="" /> Top attaction
+              </h6>
+              <ul>
+                <li>Hong Kong Disneyland (170m)</li>
+                <li>Hong Kong Museum (250m)</li>
+                <li>The Peak Tram (80m)</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h6 class="text-primary">
+                <img src="assets/image/flag.svg" alt="" /> Top attaction
+              </h6>
+              <ul>
+                <li>Hong Kong Disneyland (170m)</li>
+                <li>Hong Kong Museum (250m)</li>
+                <li>The Peak Tram (80m)</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h6 class="text-primary">
+                <img src="assets/image/flag.svg" alt="" /> Top attaction
+              </h6>
+              <ul>
+                <li>Hong Kong Disneyland (170m)</li>
+                <li>Hong Kong Museum (250m)</li>
+                <li>The Peak Tram (80m)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="details-room my-4">
+          <h2 class="ml-3 mb-3 py-2 border-bottom">Superior Double Room</h2>
+          <div class="row">
+            <div class="col-lg-5 col-md-12 col-sm-12">
+          <section id="main-carousel" class="splide" dir="ltr">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="assets/image/room-1.png" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="assets/image/room-1.png" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="assets/image/room-1.png" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="assets/image/room-1.png" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="assets/image/room-1.png" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="assets/image/room-1.png" alt="" />
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section id="thumbnail-carousel" class="splide" dir="ltr">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="assets/image/room-1.png" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="assets/image/room-1.png" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="assets/image/room-1.png" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="assets/image/room-1.png" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="assets/image/room-1.png" alt="" />
+                </li>
+                <li class="splide__slide">
+                  <img src="assets/image/room-1.png" alt="" />
+                </li>
+              </ul>
+            </div>
+          </section>
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12">
+              <div class="right-details row">
+                <div class="col-lg-8 col-md-6 col-sm-12 align-items-start">
+                  <div class="title-room">
+                    <h5 class="mr-5">king bed</h5>
+                    <h5>3 sleeps</h5>
+                  </div>
+                  <div>
+                    <ul class="row row-cols-lg-2 row-cols-sm-2 row-cols-sm-1">
+                      <li class="col">
+                        <i class="fas fa-shop"></i>
+                        <p>city view</p>
+                      </li>
+                      <li class="col">
+                        <i class="fas fa-shop"></i>
+                        <p>city view</p>
+                      </li>
+                      <li class="col">
+                        <i class="fas fa-shop"></i>
+                        <p>city view</p>
+                      </li>
+                      <li class="col">
+                        <i class="fas fa-shop"></i>
+                        <p>city view</p>
+                      </li>
+
+                      <li class="col">
+                        <i class="fas fa-shop"></i>
+                        <p>city view</p>
+                      </li>
+                      <li class="col">
+                        <i class="fas fa-shop"></i>
+                        <p>city view</p>
+                      </li>
+                      <li class="col">
+                        <i class="fas fa-shop"></i>
+                        <p>city view</p>
+                      </li>
+                      <li class="col">
+                        <i class="fas fa-shop"></i>
+                        <p>city view</p>
+                      </li>
+                      <li class="col">
+                        <i class="fas fa-shop"></i>
+                        <p>city view</p>
+                      </li>
+                      <li class="col">
+                        <i class="fas fa-shop"></i>
+                        <p>city view</p>
+                      </li>
+
+                      <li class="col">
+                        <i class="fas fa-shop"></i>
+                        <p>city view</p>
+                      </li>
+                      <li class="col">
+                        <i class="fas fa-shop"></i>
+                        <p>city view</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12"></div>
+                <div class="col-lg-12 col-md-6 col-sm-12 align-items-start">
+                  <h2>100 S.R</h2>
+                  <p>After tax US$ 102</p>
+                  <button class="btn btn-primary rounded-pill px-5">
+                    book at this price
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="details-room date my-4">
+          <h2 class="ml-3 mb-3 py-2 border-bottom">Nearest Services</h2>
+          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+            <div class="col">
+              <h3>Transport</h3>
+            </div>
+            <div class="col">
+              <p>
+                <span class="text-primary">360m</span>
+                <span class="p-desc">metro :</span> <span>lavender</span>
+              </p>
+              <p>
+                <span class="text-primary">200m</span>
+                <span class="p-desc">Train :</span>
+                <span>Woodlands Train Checkpoint</span>
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                <span class="text-primary">360m</span>
+                <span class="p-desc">metro :</span> <span>lavender</span>
+              </p>
+              <p>
+                <span class="text-primary">200m</span>
+                <span class="p-desc">Train :</span>
+                <span>Woodlands Train Checkpoint</span>
+              </p>
+            </div>
+          </div>
+          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+            <div class="col">
+              <h3>Dining</h3>
+            </div>
+            <div class="col">
+              <p>
+                <span class="text-primary">360m</span>
+                <span class="p-desc">metro :</span> <span>lavender</span>
+              </p>
+              <p>
+                <span class="text-primary">200m</span>
+                <span class="p-desc">Train :</span>
+                <span>Woodlands Train Checkpoint</span>
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                <span class="text-primary">360m</span>
+                <span class="p-desc">metro :</span> <span>lavender</span>
+              </p>
+              <p>
+                <span class="text-primary">200m</span>
+                <span class="p-desc">Train :</span>
+                <span>Woodlands Train Checkpoint</span>
+              </p>
+            </div>
+          </div>
+          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+            <div class="col">
+              <h3>Landmarks</h3>
+            </div>
+            <div class="col">
+              <p>
+                <span class="text-primary">360m</span>
+                <span class="p-desc">metro :</span> <span>lavender</span>
+              </p>
+              <p>
+                <span class="text-primary">200m</span>
+                <span class="p-desc">Train :</span>
+                <span>Woodlands Train Checkpoint</span>
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                <span class="text-primary">360m</span>
+                <span class="p-desc">metro :</span> <span>lavender</span>
+              </p>
+              <p>
+                <span class="text-primary">200m</span>
+                <span class="p-desc">Train :</span>
+                <span>Woodlands Train Checkpoint</span>
+              </p>
+            </div>
+          </div>
+          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+            <div class="col">
+              <h3>Shopping</h3>
+            </div>
+            <div class="col">
+              <p>
+                <span class="text-primary">360m</span>
+                <span class="p-desc">metro :</span> <span>lavender</span>
+              </p>
+              <p>
+                <span class="text-primary">200m</span>
+                <span class="p-desc">Train :</span>
+                <span>Woodlands Train Checkpoint</span>
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                <span class="text-primary">360m</span>
+                <span class="p-desc">metro :</span> <span>lavender</span>
+              </p>
+              <p>
+                <span class="text-primary">200m</span>
+                <span class="p-desc">Train :</span>
+                <span>Woodlands Train Checkpoint</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="details-room date my-4">
+          <h2 class="ml-3 mb-3 py-2 border-bottom">Service & Amenties</h2>
+          <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1">
+            <div class="col">
+              <h3>Transport</h3>
+            </div>
+            <div class="col">
+              <ul>
+                <li>Parking : <span class="text-danger ml-3"> paid</span></li>
+                <li>Fitness Room</li>
+                <li>Luggage Storage</li>
+                <li>
+                  Children's Playground
+                  <span class="text-success ml-3"> free</span>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+                <li>Parking : <span class="text-danger ml-3"> paid</span></li>
+                <li>Fitness Room</li>
+                <li>Luggage Storage</li>
+                <li>
+                  Children's Playground
+                  <span class="text-success ml-3"> free</span>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+                <li>Parking : <span class="text-success ml-3"> free</span></li>
+                <li>Fitness Room</li>
+                <li>Luggage Storage</li>
+                <li>
+                  Children's Playground
+                  <span class="text-success ml-3"> free</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="details-room graph my-4">
+          <h2 class="ml-3 mb-3 py-2 border-bottom">Guests Reviews</h2>
+          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+            <div class="col deagre">
+              <div class="">
+                <h1>85</h1>
+                <h4>Extraordinary 786</h4>
+              </div>
+            </div>
+            <div class="col">
+              <div class="prog">
+                <div class="info-progress">
+                  <p>Dishes</p>
+                  <p>7.8</p>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="prog">
+                <div class="info-progress">
+                  <p>Dishes</p>
+                  <p>5.8</p>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 58%"></div>
+                </div>
+              </div>
+              <div class="prog">
+                <div class="info-progress">
+                  <p>Dishes</p>
+                  <p>8.8</p>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 88%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="prog">
+                <div class="info-progress">
+                  <p>Dishes</p>
+                  <p>7.8</p>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="prog">
+                <div class="info-progress">
+                  <p>Dishes</p>
+                  <p>5.8</p>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 58%"></div>
+                </div>
+              </div>
+              <div class="prog">
+                <div class="info-progress">
+                  <p>Dishes</p>
+                  <p>8.8</p>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 88%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="coment">
+            <div>
+              <img src="assets/image/profile.png" alt="" />
+            </div>
+            <div>
+              <h4>Faisal metery</h4>
+              <h6>saudi arabia</h6>
+              <p>
+                In a free hour, But in certain circumstances and owing to the
+                claims of duty or the obligations of business when our power of
+                choice is untrammelled and when nothing prevents our being able
+                to do what we like best, every pleasure is to be welcomed and
+                every pain avoided.
+              </p>
+            </div>
+          </div>
+          <div class="coment">
+            <div>
+              <img src="assets/image/profile.png" alt="" />
+            </div>
+            <div>
+              <h4>Faisal metery</h4>
+              <h6>saudi arabia</h6>
+              <p>
+                In a free hour, But in certain circumstances and owing to the
+                claims of duty or the obligations of business when our power of
+                choice is untrammelled and when nothing prevents our being able
+                to do what we like best, every pleasure is to be welcomed and
+                every pain avoided.
+              </p>
+            </div>
+          </div>
+          <div class="coment">
+            <div>
+              <img src="assets/image/profile.png" alt="" />
+            </div>
+            <div>
+              <h4>Faisal metery</h4>
+              <h6>saudi arabia</h6>
+              <p>
+                In a free hour, But in certain circumstances and owing to the
+                claims of duty or the obligations of business when our power of
+                choice is untrammelled and when nothing prevents our being able
+                to do what we like best, every pleasure is to be welcomed and
+                every pain avoided.
+              </p>
+            </div>
+          </div>
+        </div>
+        <section
+          class="room room2 my-4 py-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-once="true"
+        >
+          <div class="title">
+            <h5 class="btn btn-light rounded-pill px-3">
+              <i class="fas fa-plane"></i>
+              <span class="text-dark">Available rooms </span>
+            </h5>
+            <h2>OUR FAVOURITE LUXURY ROOMS</h2>
+          </div>
+          <div class="container">
+            <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 my-4">
+              <a href="" class="col card">
+                <div class="card-img-top">
+                  <img src="assets/image/room.png" alt="" />
+                </div>
+                <div class="card-body p-3">
+                  <ul class="stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                  <h5>luxury double suit</h5>
+                  <p class="p-desc">
+                    We are a specialized online platform for hotels, offering an
+                    easy.
+                  </p>
+                </div>
+              </a>
+              <a href="" class="col card">
+                <div class="card-img-top">
+                  <img src="assets/image/room.png" alt="" />
+                </div>
+                <div class="card-body p-3">
+                  <ul class="stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                  <h5>luxury double suit</h5>
+                  <p class="p-desc">
+                    We are a specialized online platform for hotels, offering an
+                    easy.
+                  </p>
+                </div>
+              </a>
+              <a href="" class="col card">
+                <div class="card-img-top">
+                  <img src="assets/image/room.png" alt="" />
+                </div>
+                <div class="card-body p-3">
+                  <ul class="stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                  <h5>luxury double suit</h5>
+                  <p class="p-desc">
+                    We are a specialized online platform for hotels, offering an
+                    easy.
+                  </p>
+                </div>
+              </a>
+              <a href="" class="col card">
+                <div class="card-img-top">
+                  <img src="assets/image/room.png" alt="" />
+                </div>
+                <div class="card-body p-3">
+                  <ul class="stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                  <h5>luxury double suit</h5>
+                  <p class="p-desc">
+                    We are a specialized online platform for hotels, offering an
+                    easy.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <button class="btn btn-secondary rounded-pill">
+                select room
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- end rooms  -->
+    <!-- ////////////////////////////////////////////////////////// -->
+
+    <!-- start footer  -->
+    <!--  -->
+    <footer data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+      <div class="container">
+        <div class="row py-3">
+          <div class="col col-lg-5 col-md-6 col-sm-12 logo">
+            <div><img src="assets/image/logo-footer.svg" alt="" /></div>
+            <div class="mt-4">
+              <p class="mb-4">
+                We are a specialized online platform for hotels, offering an
+                easy, secure, and transparent experience for comfortable stays
+                without the hassle.
+              </p>
+            </div>
+          </div>
+          <div class="col col-lg-2 col-md-6 col-sm-12">
+            <h2>LINKS</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">gallery</a></li>
+              <li><a href="#">book now</a></li>
+            </ul>
+          </div>
+          <div class="col col-lg-2 col-md-6 col-sm-12 footer-new">
+            <h2>LINKS</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">gallery</a></li>
+              <li><a href="#">book now</a></li>
+            </ul>
+          </div>
+          <div class="col col-lg-3 col-md-6 col-sm-12 search">
+            <h2>Follow us</h2>
+            <ul class="social d-flex flex-row">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="end-footer">
+        <p>
+          <a
+            class="d-block text-nowrap"
+            href="https://www.elnooronline.net/"
+            target="_blank"
+          >
+            design by :youssef mostafa
+          </a>
+        </p>
+        <p>
+          All rights reserved © 2024 for
+          <span class="text-secondary"> NASSEM </span>
+        </p>
+      </div>
+    </footer>
+    <button
+      class="end btn btn-primary rounded-50 position-fixed bottom-30px left-30px"
+    >
+      <i class="fa-solid fa-arrow-up font-5"></i>
+    </button>
+    <!-- end footer -->
+
+      <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body contact-us-main">
+           <form method="post">
+				 <input type="hidden" name="search_booking_by_code" value="1">
+              <h2 class="ml-3 mb-2">code</h2>
+              <div class="row">
+                <div class="col-12">
+                  <input type="number" name="booking_code"  min="0000000000" max="9999999999" placeholder="enter code" />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="submit"
+                    class="btn btn-primary w-100"
+                    value="submit"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- Modal footer -->
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery-for-count.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".counter").counterUp({
+          delay: 10,
+          time: 1500,
+        });
+      });
+    </script>
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/autotyping.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/slick-animation.min.js"></script>
+    <script src="assets/js/@splidejs/splide.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/@splidejs/splide-extension-auto-scroll/dist/js/splide-extension-auto-scroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/javascript.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var main = new Splide("#main-carousel", {
+        type: "fade",
+        rewind: true,
+        pagination: false,
+        arrows: false,
+      });
+
+      var thumbnails = new Splide("#thumbnail-carousel", {
+        perPage: 3,        // يعرض 3 صور في الصفحة
+        gap: 10,
+        rewind: true,
+        pagination: false,
+        isNavigation: true,
+        breakpoints: {
+          600: {
+            perPage: 2,   // على الشاشات الصغيرة يعرض 2 صور
+            gap: 5,
+          },
+        },
+      });
+
+      main.sync(thumbnails);
+      main.mount();
+      thumbnails.mount();
+    });
+  </script>
+
+  </body>
+</html>
